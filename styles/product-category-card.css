@@ -3,16 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 2rem; */
 }
 
 .product-category {
   position: relative;
-  max-width: 286px;
-  max-height: 140px;
+  max-width: 286rem;
+  max-height: 140rem;
   display: flex;
   cursor: pointer;
   margin: 1rem 0.5rem;
