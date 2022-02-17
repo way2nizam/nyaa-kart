@@ -72,3 +72,7 @@
 .btn-2:hover {
   background-color: var(--color-primary-light);
 }
+
+.producr-category__title {
+  color: inherit;
+}
