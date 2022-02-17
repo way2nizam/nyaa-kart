@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | nyaa-kart</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="/"><img src="../images/nyaa-kart.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="search here">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                    </use>
+                </svg>
+            </button>
+        </form>
+
+        <nav class="user-nav">
+            <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use href="../images/sprite.svg#icon-heart-outlined">
+                    </use>
+                </svg>
+
+                <span class="user-nav__notification">5</span>
+            </div>
+
+            <div class="user-nav__icon-box">
+
+                <svg class="user-nav__icon">
+                    <use href="../images/sprite.svg#icon-shopping-cart">
+                    </use>
+                </svg>
+
+                <span class="user-nav__notification">18</span>
+            </div>
+
+            <div class="user-nav__user">
+                <a href="./login.html"> <span class="user-nav__user-name user-nav__login">Login</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <div class="login">
+            <h3 class="heading-1">
+                Login
+            </h3>
+
+            <label for="email">Email address</label>
+            <input class="input" type="email" placeholder="nizam@nyaa-kart.nelify.app">
+
+            <label for="password">Password</label>
+            <input class="input" type="password" placeholder="**********">
+
+            <div class="card__checkbox">
+                <label class="label">
+                    <input type="checkbox" class="label__input" />
+                    remember me
+                </label>
+
+                <a href="#"> Forget Your Password</a>
+            </div>
+
+
+            <button class="btn btn-2">Login</button>
+
+            <a href="./signup.html">Create New Account >></a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
