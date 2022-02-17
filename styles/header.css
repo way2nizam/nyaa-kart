@@ -132,3 +132,9 @@
   margin: 1rem;
   background-color: var(--color-grey-dark-4);
 }
+
+@media screen and (max-width: 550px) {
+  .user-nav {
+    display: none;
+  }
+}

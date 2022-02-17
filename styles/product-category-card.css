@@ -1,0 +1,29 @@
+.category-container {
+  margin: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-category {
+  position: relative;
+  max-width: 286rem;
+  max-height: 140rem;
+  display: flex;
+  cursor: pointer;
+  margin: 1rem 0.5rem;
+}
+
+.product-category__image {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.product-category__content {
+  padding: 0.4rem 0;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
