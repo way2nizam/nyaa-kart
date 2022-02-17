@@ -1,3 +1,11 @@
 @import url(./styles/base.css);
 @import url(./styles/example-divider.css);
 @import url(./styles/header.css);
+<<<<<<< Updated upstream
+=======
+@import url(./styles/product-category-card.css);
+@import url(./styles/image.css);
+@import url(./styles/img-slider.css);
+@import url(./styles/card2.css);
+@import url(./styles/products.css);
+>>>>>>> Stashed changes
