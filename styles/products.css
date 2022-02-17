@@ -29,6 +29,7 @@
   top: 5%;
   right: 5%;
   fill: var(--color-grey-dark-4);
+  cursor: pointer;
 }
 
 .product-card__content {
