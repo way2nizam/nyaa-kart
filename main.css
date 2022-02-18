@@ -8,3 +8,7 @@
 @import url(./styles/products.css);
 @import url(./styles/login.css);
 @import url(./styles/filter.css);
+
+.main {
+  display: flex;
+}
