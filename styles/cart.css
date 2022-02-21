@@ -1,0 +1,126 @@
+.cart-container {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cart {
+  max-width: 65rem;
+  height: max-content;
+  display: flex;
+  padding: 3rem;
+  background-color: var(--white-color);
+}
+.cart > * {
+  margin-left: 1rem;
+}
+
+.cart__quantity {
+  display: flex;
+  margin: 2rem;
+}
+
+.cart__quantity {
+  margin: 0 0.5rem;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.price2 {
+  font-size: 3.2rem;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
+.cart__badge {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.cart__quantity {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+}
+
+.quantity-btn {
+  width: max-content;
+  height: max-content;
+  padding: 0 0.5rem;
+  border: none;
+  border-radius: 999rem;
+}
+
+.quantity-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: max-content;
+  padding: 0 0.5rem;
+  border: none;
+  border-radius: 999rem;
+}
+
+.cart-btn {
+  padding: 1rem 9.5rem;
+  width: max-content;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+
+  color: var(--white-color);
+  background-color: var(-color-grey-light-5);
+}
+
+.cart-btn__outline {
+  padding: 1rem 10rem;
+  width: max-content;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-grey-light-5);
+  color: var(--color-grey-drak-1);
+  background-color: var(--white-color);
+}
+
+.price {
+  font-size: 1.5rem;
+  max-width: 65rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: var(--white-color);
+}
+
+.price > * {
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price h3 {
+  margin: 0;
+}
+
+.price span {
+  padding: 0 2rem;
+}
+
+.price__total {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.price__benefit {
+  font-weight: 500;
+}

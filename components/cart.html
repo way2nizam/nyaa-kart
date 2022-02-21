@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | nyaa-kart</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="/"><img src="../images/nyaa-kart.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="search here">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                    </use>
+                </svg>
+            </button>
+        </form>
+
+        <nav class="user-nav">
+            <div class="user-nav__icon-box">
+                <a href="./wishlist.html">
+                    <svg class="user-nav__icon">
+                        <use href="../images/sprite.svg#icon-heart-outlined">
+                        </use>
+                    </svg>
+                </a>
+
+                <span class="user-nav__notification">5</span>
+            </div>
+
+            <div class="user-nav__icon-box">
+
+                <a href="./cart.html">
+                    <svg class="user-nav__icon">
+                        <use href="../images/sprite.svg#icon-shopping-cart">
+                        </use>
+                    </svg>
+                </a>
+
+                <span class="user-nav__notification">18</span>
+            </div>
+
+            <div class="user-nav__user">
+                <a href="./login.html"> <span class="user-nav__user-name user-nav__login">Login</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <div class="cart">
+            <div class="cart__cover">
+                <img src="../images/product.png" alt="Product">
+            </div>
+            <div class="cart__content">
+                <h4 class="heading">
+                    Men Premium Jacket
+                </h4>
+
+
+                <div class="product-price">
+                    <h2 class="heading-2">
+                        ₹2000
+                    </h2>
+
+                    <span class="price2">₹3999</span>
+
+                </div>
+
+
+                <div class="cart__badge">
+                    50% off
+                </div>
+
+                <div class="cart__quantity">
+                    <p class="paragraph">Quantity :</p>
+                    <button class="quantity-btn">-</button>
+                    <input class="quantity-input" type="text" value="1">
+                    <button class="quantity-btn">+</button>
+                </div>
+
+                <button class="btn cart-btn">Remove from Cart</button>
+                <button class="btn cart-btn__outline">Move to Wishlist</button>
+            </div>
+        </div>
+
+        <div class="price">
+            <h3>Price Details</h3>
+            <hr>
+            <div class="price__item">
+                <span>Price (2 items)
+                </span>
+                <span>₹4999</span>
+
+            </div>
+
+            <div class="price__discount">
+                <span>Discount
+                </span>
+                <span>- ₹1999</span>
+            </div>
+
+            <div class="price__delivery">
+                <span>Delivery Charges
+                </span>
+                <span>₹499</span>
+            </div>
+
+            <hr>
+
+            <div class="price__total">
+                <span> TOTAL AMOUNT
+                </span>
+                <span>₹3499</span>
+
+            </div>
+
+            <hr>
+
+            <div class="price__benefit">
+                <span>You will save ₹1999 on this order.
+                </span>
+
+            </div>
+
+            <div class="price-btn">
+                <button class="btn btn-2 price-btn">Place Order</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
