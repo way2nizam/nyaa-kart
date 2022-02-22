@@ -56,17 +56,19 @@
     </header>
 
     <main class="main">
-        <div class="filter-container">
+
+        <div class="filter-container my-2 mx-1 p-4">
 
             <div class="filter__div1">
-                <h4 class="heading-4">Filters</h4>
+                <div class="p text-bold">Filters</div>
                 <a href="#" class="clear-btn">Clear</a>
             </div>
 
 
 
             <div class="filter__div2">
-                <h4 class="heading-5">Price</h4>
+
+                <div class="p text-lightbold">Price</div>
 
                 <div class="slider-range">
                     <span>50</span>
@@ -80,7 +82,7 @@
             </div>
 
             <div class="filter__div3">
-                <h4 class="heading-4">Category</h4>
+                <div class="p text-lightbold">Category</div>
                 <label class="label">
                     <input type="checkbox" class="label__input" checked="checked" />
                     Men Clothing
@@ -92,7 +94,7 @@
             </div>
 
             <div class="filter__div3">
-                <h4 class="heading-4">Rating</h4>
+                <div class="p text-lightbold">Rating</div>
                 <label class="label">
                     <input type="radio" class="label__input" />
                     4 Stars & above
@@ -112,7 +114,7 @@
             </div>
 
             <div class="filter__div3">
-                <h4 class="heading-4">Sort by</h4>
+                <div class="p text-lightbold">Sort by</div>
                 <label class="label">
                     <input type="radio" class="label__input" />
                     Price - Low to High
@@ -125,115 +127,183 @@
 
         </div>
 
-        <div class="product-container">
+        <div class="card-container my-2">
+            <div class="card">
 
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
+                <div class="card__cover">
+
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
+
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-accent">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
+
                 </div>
 
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
+                <div class="card__content">
 
-                    <button class="btn">Add to Cart</button>
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-primary py-1">Go to Cart</button>
 
                 </div>
+
             </div>
 
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
-                </div>
+            <div class="card">
 
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
+                <div class="card__cover">
 
-                    <button class="btn">Add to Cart</button>
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
 
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
-                </div>
-
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
-
-                    <button class="btn btn-2">Go to Cart</button>
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-grey">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
 
                 </div>
+
+                <div class="card__content">
+
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-grey py-1">Add to Cart</button>
+
+                </div>
+
             </div>
 
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
+            <div class="card">
+
+                <div class="card__cover">
+
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
+
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-accent">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
+
                 </div>
 
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
+                <div class="card__content">
 
-                    <button class="btn">Add to Cart</button>
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-grey py-1">Move to Cart</button>
 
                 </div>
+
             </div>
 
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
+            <div class="card">
+
+                <div class="card__cover">
+
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
+
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-accent">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
+
                 </div>
 
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
+                <div class="card__content">
 
-                    <button class="btn">Add to Cart</button>
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-primary py-1">Go to Cart</button>
 
                 </div>
+
             </div>
 
-            <div class="product-card">
-                <div class="product-card__cover">
-                    <img class="img" src="../images/product.png" alt="Product">
-                    <svg class="product-card__icon">
-                        <use href="../images/sprite.svg#icon-heart">
-                        </use>
-                    </svg>
+            <div class="card">
+
+                <div class="card__cover">
+
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
+
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-grey">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
+
                 </div>
 
-                <div class="product-card__content">
-                    <div class="product-card__title">Men Premium Jacket</div>
-                    <h3 class="product-card__price">$2000</h3>
+                <div class="card__content">
 
-                    <button class="btn">Add to Cart</button>
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-grey py-1">Add to Cart</button>
 
                 </div>
+
             </div>
+
+            <div class="card">
+
+                <div class="card__cover">
+
+                    <div class="card__image">
+                        <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                    </div>
+
+                    <div class="icon-container card__icon">
+                        <svg class="icon-sm icon-accent">
+                            <use href="../images/sprite.svg#icon-heart">
+                            </use>
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class="card__content">
+
+                    <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                    <h3 class="text-bold mb-2">$2000</h3>
+
+                    <button class="btn btn-block btn-grey py-1">Move to Cart</button>
+
+                </div>
+
+            </div>
+
         </div>
+
     </main>
 
 </body>
